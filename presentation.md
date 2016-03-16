@@ -117,7 +117,11 @@ a)
 
 $$\pi=[V((a-q_1(L)-q_2(L)-C_L)\cdot q_1(L))+(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))+V((a-q_1(H)-q_2(H)-C_L)\cdot q_1(H))+(1-V)((a-q_1(H)-q_2(H)-C_L)\cdot q_1(L))]$$
 
-$$\begin{equation}\label{e:barwq}
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\begin{equation}\label{e:barwq}
 \begin{split}
  \pi&=[V((a-q_1(L)-q_2(L)-C_L)\cdot q_1(L))+(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))
 	 &\+V((a-q_1(H)-q_2(H)-C_L)\cdot q_1(H))\+(1-V)((a-q_1(H)-q_2(H)-C_L)\cdot q_1(L))]$$
