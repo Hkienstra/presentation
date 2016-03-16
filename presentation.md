@@ -115,13 +115,16 @@ A can generate profit from buying T, because it values it higher than T's own ma
 a)
 ---
 
-
-$$\pi=[V((a-q_1(L)-q_2(L)-C_L)\cdot q_1(L))+(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))$$
-$$+V((a-q_1(H)-q_2(H)-C_L)\cdot q_1(H))+(1-V)((a-q_1(H)-q_2(H)-C_L)\cdot q_1(L))]$$
+$$\pi=[V((a-q_1(L)-q_2(L)-C_L)\cdot q_1(L))$$
++(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))$$
+$$+V((a-q_1(H)-q_2(H)-C_L)\cdot q_1(H))$$
+$$+(1-V)((a-q_1(H)-q_2(H)-C_L)\cdot q_1(L))]$$
 
 $$\pi_1'(L) \Rightarrow q_1(L) \frac{[a-q_2(L)-c_L]V+[a-q_2(H)-c_L]1-V}{2}$$
 
 $$\pi_1'(H) \Rightarrow q_1(H)= \frac{[a-q_2(L)-c_H]V+[a-q_2(H)-c_H]1-V}{2}$$
+
+----
 
 $$\pi_1'(L) \Rightarrow q_2(L) \frac{[a-q_1(L)-c_L]V+[a-q_1(H)-c_L]1-V}{2}$$
 
