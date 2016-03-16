@@ -139,6 +139,8 @@ $$\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}$$
 ===============
 ![](Schermafbeelding.png)
 
+------
+
 b)
 ---
 With k=0.5 the game is a prisoners dilemma with the pure strategy Nash equilibrium (Fight, Fight). 
