@@ -116,7 +116,7 @@ a)
 ---
 
 $$\pi=[V((a-q_1(L)-q_2(L)-C_L)\cdot q_1(L))$$
-+(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))$$
+$$+(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))$$
 $$+V((a-q_1(H)-q_2(H)-C_L)\cdot q_1(H))$$
 $$+(1-V)((a-q_1(H)-q_2(H)-C_L)\cdot q_1(L))]$$
 
@@ -135,7 +135,7 @@ $$\pi_2'(H) \Rightarrow q_2(H)= \frac{[a-q_1(L)-c_H]V+[a-q_1(H)-c_H]1-V}{2}$$
 b)
 ---
 
-A strategy for i is how much to produce given that j is expected to certain Q determined wheter it has low cost or high cost. 
+A strategy for i is how much to produce given that j is expected to certain Q, determined wheter it has low cost or high cost. 
 
 ------
 
