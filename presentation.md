@@ -105,6 +105,7 @@ d)
 ---
 A can generate profit from buying T, because it values it higher than T's own management does. However T only accepts bids above own value, on average as you lower bid the probability that target firm has good value decreases, creating an adverse selection problem. 
 
+
 1.2 
 =============
 
@@ -142,6 +143,7 @@ $q_1(H)=q_2(H)$\
 
 $$\Rightarrow q(L)=\frac{a-(1+V)q(H)-c_L}{2+V}$$
 $$\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}$$
+
 
 1.3 
 ===============
