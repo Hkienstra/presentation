@@ -4,8 +4,14 @@
 
 
 
-1.1 a)
+1.1 
 ================
+
+----
+
+a)
+----
+
 A has 1 type. Types of T are different firm values (x) distributed over [0.1]. 
 
 $A_A$ bids Y to take over T, Y distributed over [0, $\infty$]. 
@@ -100,8 +106,13 @@ A can generate profit from buying T, because it values it higher than T's own ma
 ------
 
 
-1.2 a)
+1.2 
 =============
+
+----
+
+a)
+----
 
 $$\pi=[V((a-q_1(L)-q_2(L)-C_L)\cdot q_1(L))+(1-V)((a-q_1(L)-q_2(H)-C_L)\cdot q_1(L))+V((a-q_1(H)-q_2(H)-C_L)\cdot q_1(H))+(1-V)((a-q_1(H)-q_2(H)-C_L)\cdot q_1(L))]$$
 
@@ -135,8 +146,14 @@ $$\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}$$
 
 ------
 
-1.3 a)
+1.3 
 ===============
+
+----
+
+a)
+----
+
 ![](Schermafbeelding.png)
 
 ------
