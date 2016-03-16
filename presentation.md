@@ -2,6 +2,8 @@
 % Assignment 1
 % Hidde Kienstra (902873), Tilburg University
 
+
+
 1.1 a)
 ================
 A has 1 type. Types of T are different firm values (x) distributed over [0.1]. 
