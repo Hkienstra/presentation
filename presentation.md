@@ -32,6 +32,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8"> <meta name="generator" content="pandoc">
+<title>
+</title>
+<meta name="apple-mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"> <link rel="stylesheet" href="reveal.js/css/reveal.css">
+<style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme"> <!-- Printing and PDF exports -->
+<script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+<!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="reveal">
+<pre><code>&lt;div class=&quot;slides&quot;&gt;</code></pre>
+<section class="slide level2">
+<!DOCTYPE html>
+<html>
+<head>
 <meta charset="utf-8"> <meta name="generator" content="pandoc"> <meta name="author" content="Assignment 1">
 <title>
 Game Theory 2
@@ -86,7 +110,9 @@ Hidde Kienstra (902873), Tilburg University
 </section>
 <section id="a" class="slide level2">
 <h1>
-a)
+<ol type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 A has 1 type. Types of T are different firm values (x) distributed over [0.1].
@@ -117,7 +143,9 @@ Strategy T: to accept or reject Y <span class="math inline">()</span> T only acc
 </section>
 <section id="b" class="slide level2">
 <h1>
-b)
+<ol start="2" type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 <span class="math display">[E(X)= ^{}_{-} x *f(x) , dx ]</span>
@@ -145,7 +173,9 @@ b)
 </section>
 <section id="c" class="slide level2">
 <h1>
-c)
+<ol start="3" type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 Firm value is distributed over <span class="math display">[[0.1]]</span>
@@ -204,7 +234,9 @@ Nash equilibrium is for A to bid 0.
 </section>
 <section id="d" class="slide level2">
 <h1>
-d)
+<ol start="4" type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 A can generate profit from buying T, because it values it higher than T's own management does. However T only accepts bids above own value, on average as you lower bid the probability that target firm has good value decreases, creating an adverse selection problem.
@@ -219,7 +251,9 @@ A can generate profit from buying T, because it values it higher than T's own ma
 </section>
 <section id="a-1" class="slide level2">
 <h1>
-a)
+<ol type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 <span class="math display">[_1'(L) q_1(L) ]</span>
@@ -236,7 +270,9 @@ a)
 </section>
 <section id="b-1" class="slide level2">
 <h1>
-b)
+<ol start="2" type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 A strategy for i is how much to produce given that j is expected to certain Q, determined wheter it has low cost or high cost.
@@ -244,7 +280,9 @@ A strategy for i is how much to produce given that j is expected to certain Q, d
 </section>
 <section id="c-1" class="slide level2">
 <h1>
-c)
+<ol start="3" type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 Assuming symmetry of firm 1 &amp; 2 <span class="math inline">(q_1(L)=q_2(L))</span>
@@ -265,7 +303,9 @@ and
 </section>
 <section id="a-2" class="slide level2">
 <h1>
-a)
+<ol type="a">
+<li></li>
+</ol>
 </h1>
 <figure>
 <img src="Schermafbeelding.png" />
@@ -273,7 +313,9 @@ a)
 </section>
 <section id="b-2" class="slide level2">
 <h1>
-b)
+<ol start="2" type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 With k=0.5 the game is a prisoners dilemma with the pure strategy Nash equilibrium (Fight, Fight).
@@ -284,12 +326,35 @@ With k=2 the game is a type of coordination game which is called chicken game. T
 </section>
 <section id="c-2" class="slide level2">
 <h1>
-c)
+<ol start="3" type="a">
+<li></li>
+</ol>
 </h1>
 <p>
 Type: <span class="math display">[_1=(k=0.5,k=2)]</span> <span class="math display">[_2=(k=0.5p,k=2(1-p))]</span> Action: <span class="math display">[A={Accomodate,Fight}]</span>
 </p>
 </section>
+</section>
+<pre><code>&lt;/div&gt;</code></pre>
+</div>
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
+<script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+<pre><code>&lt;/body&gt;</code></pre>
+</html>
 </section>
 <pre><code>&lt;/div&gt;</code></pre>
 </div>
