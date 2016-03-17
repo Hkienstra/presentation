@@ -37,7 +37,10 @@
 <ul>
 <li><a href="#/section">1.1</a></li>
 <li><a href="#/section-1">1.2</a></li>
+<li><a href="#/b-1">b)</a></li>
+<li><a href="#/c-1">c)</a></li>
 <li><a href="#/section-2">1.3</a></li>
+<li><a href="#/c-2">c)</a></li>
 </ul>
 </section>
 
@@ -47,8 +50,6 @@
 <p><span class="math inline">\(A_A\)</span> bids Y to take over T, Y distributed over [0, <span class="math inline">\(\infty\)</span>].</p>
 <p><span class="math inline">\(A_T\)</span>= reject or accept Y</p>
 <p>T will only accept Y if <span class="math display">\[Y\ge X\]</span></p>
-</section><section class="slide level2">
-
 <p>A beliefs X is drawn from CDF <span class="math inline">\(F(X)=X(2-X)\)</span>, T knows own X</p>
 <p>Strategy A: Bid <span class="math display">\[\Rightarrow Y [0, {\infty}]\]</span></p>
 <p>Strategy T: to accept or reject Y <span class="math inline">\(\Rightarrow\)</span> T only accepts if: <span class="math display">\[Y\ge X\]</span></p>
@@ -59,20 +60,18 @@
 <p><span class="math display">\[F(X)=X(2-X)=X^2+2X\]</span></p>
 <p><span class="math display">\[f(X)=F&#39;=-2x+2\]</span></p>
 <p><span class="math display">\[E(X)=\int_{0}^{1} x(-2x+2) dx \]</span></p>
-</section><section class="slide level2">
-
 <p><span class="math display">\[=\int_{0}^{1} -2x^2+2 dx= \]</span></p>
 <p><span class="math display">\[=\frac{-2}{3}X^3+X^2\]</span></p>
 <p><span class="math display">\[=\frac{-2}{3}*1+1^2=\frac{1}{3}\]</span></p>
 </section><section id="c" class="slide level2">
 <h1>c)</h1>
-<p>Firm value is distributed over <span class="math display">\[[0.1]\]</span></p>
+<p>Firm value is distributed over <span class="math inline">\([0.1]\)</span></p>
 <p>T will only accept Y if: <span class="math display">\[\Rightarrow Y\ge X\]</span> A can bid below or higher than 1, if bid is equal or higher than 1 T will always accept (max firm value=1)</p>
 <p><span class="math display">\[\Rightarrow E(X|X\le Y)\]</span> is the expected X of firm that accepts Y.</p>
 <p><span class="math display">\[\Rightarrow E(X|X\le Y)=\frac{\int_{0}^{Y} x*f(x) dx }{F(Y)}\]</span></p>
+<p><span class="math display">\[f(x)=-2x+2\]</span></p>
 </section><section class="slide level2">
 
-<p><span class="math display">\[f(x)=-2x+2\]</span></p>
 <p><span class="math display">\[=\int_{0}^{Y} x(-2x+2) dx= \]</span></p>
 <p><span class="math display">\[=\int_{0}^{Y} (-2x^2+2)  dx= \]</span></p>
 <p><span class="math display">\[=[\frac{-2}{3}X^3+X^2]^{X=Y}_{X=0}\]</span></p>
@@ -83,14 +82,14 @@
 
 <p>The expected value of a firm if it accepts is <span class="math display">\[= E(X|X\le Y)= \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y}\]</span> if <span class="math inline">\(Y\le 1\)</span>, if <span class="math inline">\(Y\ge 1\)</span> all types will accept, expected value of all types is <span class="math display">\[\Rightarrow \frac{1}{3}\]</span></p>
 <p>Pay off A if <span class="math inline">\(Y\le 1:\)</span> <span class="math display">\[= 2x-Y=2( \frac{-2\frac{-2}{3}Y^3+Y^2}{-Y^2+2Y})-Y\]</span></p>
-</section><section class="slide level2">
-
 <p>which is <span class="math inline">\(\le0\)</span> on interval [0,1].</p>
 <p>Payoff A if <span class="math inline">\(Y\ge1\)</span> <span class="math display">\[=2*\frac{1}{3}-Y\le0\]</span></p>
 <p>Nash equilibrium is for A to bid 0.</p>
 </section><section id="d" class="slide level2">
 <h1>d)</h1>
 <p>A can generate profit from buying T, because it values it higher than T's own management does. However T only accepts bids above own value, on average as you lower bid the probability that target firm has good value decreases, creating an adverse selection problem.</p>
+</section><section class="slide level2">
+
 </section></section>
 <section><section id="section-1" class="titleslide slide level1"><h1>1.2</h1></section><section id="a-1" class="slide level2">
 <h1>a)</h1>
@@ -98,15 +97,14 @@
 <p><span class="math display">\[\pi_1&#39;(H) \Rightarrow q_1(H)= \frac{[a-q_2(L)-c_H]V+[a-q_2(H)-c_H]1-V}{2}\]</span></p>
 <p><span class="math display">\[\pi_1&#39;(L) \Rightarrow q_2(L) \frac{[a-q_1(L)-c_L]V+[a-q_1(H)-c_L]1-V}{2}\]</span></p>
 <p><span class="math display">\[\pi_2&#39;(H) \Rightarrow q_2(H)= \frac{[a-q_1(L)-c_H]V+[a-q_1(H)-c_H]1-V}{2}\]</span></p>
-</section><section id="b-1" class="slide level2">
-<h1>b)</h1>
-<p>A strategy for i is how much to produce given that j is expected to certain Q, determined wheter it has low cost or high cost.</p>
-</section><section id="c-1" class="slide level2">
-<h1>c)</h1>
-<p>Assuming symmetry of firm 1 &amp; 2 <span class="math inline">\(q_1(L)=q_2(L)\)</span></p>
-<p>and</p>
-<p><span class="math inline">\(q_1(H)=q_2(H)\)</span><br />
-<span class="math display">\[\Rightarrow q(L)=\frac{a-(1+V)q(H)-c_L}{2+V}\]</span> <span class="math display">\[\Rightarrow q(H)=\frac{a-Vq(L)-c_H}{3-V}\]</span></p>
+</section><section class="slide level2">
+
+</section></section>
+<section><section id="b-1" class="titleslide slide level1"><h1>b)</h1></section><section class="slide level2">
+
+</section></section>
+<section><section id="c-1" class="titleslide slide level1"><h1>c)</h1></section><section class="slide level2">
+
 </section></section>
 <section><section id="section-2" class="titleslide slide level1"><h1>1.3</h1></section><section id="a-2" class="slide level2">
 <h1>a)</h1>
@@ -117,10 +115,10 @@
 <h1>b)</h1>
 <p>With k=0.5 the game is a prisoners dilemma with the pure strategy Nash equilibrium (Fight, Fight).</p>
 <p>With k=2 the game is a type of coordination game which is called chicken game. This game has two pure strategy Nash equilibria which are (Fight,Accomodate) and (Accomodate,Fight).</p>
-</section><section id="c-2" class="slide level2">
-<h1>c)</h1>
-<p>Type: <span class="math display">\[\theta_1=(k=0.5,k=2)\]</span> <span class="math display">\[\theta_2=(k=0.5\times p,k=2\times(1-p))\]</span> Action: <span class="math display">\[A={Accomodate,Fight}\]</span></p>
+</section><section class="slide level2">
+
 </section></section>
+<section><section id="c-2" class="titleslide slide level1"><h1>c)</h1></section></section>
     </div>
   </div>
 
